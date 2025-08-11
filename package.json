@@ -4,12 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-<<<<<<< HEAD
     "start" : "node index.js",
     "test": "npx playwright test"
-=======
-    "start": "node index.js"
->>>>>>> a348b84f29d88e203acb541dc960339add42b2d1
   },
   "keywords": [],
   "author": "",
