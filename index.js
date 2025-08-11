@@ -11,7 +11,7 @@ const colors = {
 const config = {
     targetUrl: 'https://minyakatsiri1405.blogspot.com/',
     browserType: 'chromium',
-    numIterations: 10,
+    numIterations: 500,
     delayBetweenActionsMs: 20000,
     clickSelector: ['h2.post-title a[href]','a.read-more'],
     headless: true,
