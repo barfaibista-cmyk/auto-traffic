@@ -75,7 +75,7 @@ async function autoPageViewAndClick() {
                     const tagName = await randomElement.evaluate(el => el.getAttribute('href'));
                     await randomElement.click();
 
-                    console.log(`Klik pada ${colors.green+tagName+colors.reset} secara acak berhasil!`);
+                    console.log(`Klik pada ${colors.green+tagName+colors.reset} berhasil!`);
 
                     await page.waitForTimeout(3000);
                 } else {
@@ -101,7 +101,7 @@ async function autoPageViewAndClick() {
                     	const tagName = await randomElement.evaluate(el => el.getAttribute('href'));
                         await randomElement.click();
 
-                        console.log(`Klik pada ${colors.green+tagName+colrs.reset} secara acak berhasil!`);
+                        console.log(`Klik pada ${colors.green+tagName+colors.reset} berhasil!`);
                         await page.waitForTimeout(3000);
                     } else {
                         console.log(colors.red + `Tidak ada elemen yang cocok dengan selector: ${randomSelector}` + colors.reset);
